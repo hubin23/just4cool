@@ -1,0 +1,65 @@
+  .navbar-inverse .navbar-nav > li > a:hover
+  {
+    color: #fb7d02;
+    background-color: transparent;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus{
+    color: #fb7d02;
+    background-color: transparent;
+  }
+  .dropdown-menu>li>a {
+    color: #9d9d9d;
+  }
+  .dropdown-menu>li>a:hover {
+    background-color: #FF5809;
+  }
+  .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover ,.navbar-inverse .navbar-nav>.open>a:visited{
+    color: #FF5809;
+    background-color: #080808;
+  }
+  .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:visited {
+    color: #fb7d02;
+    background-color: #000000;
+  }
+
+  .list-group-item {
+    font-size: 16px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #222;
+    border: 1px solid #000000;
+  }
+  .list-group-item .listtime{
+    font-size: 13px;
+    float: right;
+  }
+
+  .list-group-item .listtype{
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    color: #222222;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 3px;
+    margin-left: 30px;
+  }
+
+  a:hover.list-group-item,a:focus.list-group-item{
+    background-color: #222;
+    color: #fb7d02;
+  }
+  a:hover .listtype,a:focus .listtype{
+    background-color: #fb7d02;
+    color: #222222;
+  }
+
+  a.list-group-item{
+    color: #9d9d9d;
+  }

@@ -1,0 +1,136 @@
+.footer{
+	margin-top:50px;
+	text-align: center;
+	padding-top: 10px;
+	border-top: #131313 3px solid;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #333;
+}
+.footer a:hover{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+
+article {
+	padding: 20px 50px 10px 50px;
+	border-radius:5px;
+	color: #131313;
+	font-size: 15px;
+	background-color: #ece1c7;
+}
+
+article>p {
+	text-indent:2em;
+	line-height: 36px;
+}
+
+article .page-header {
+	padding-bottom: 9px;
+	margin: 40px 0 20px;
+	border-bottom: 1px solid #9a9a9a;
+}
+
+h1 small {
+	font-size: 50%;
+}
+
+.pagination {
+	font-size: 18px;
+}
+.pagination>li>a, .pagination>li>span {
+	color: #959595;
+	background-color: #222;
+	border: 0px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+	color: #222;
+	background-color: #fb7d02;
+	border: 0px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	z-index: 3;
+	color: #222;
+	cursor: default;
+	background-color: #fb7d02;
+	border-color: #fb7d02;
+}
+
+.thumbnail {
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #080808;
+	border: 1px solid #080808;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+}
+.thumbnail .caption {
+	padding: 0px;
+	color: #333;
+}
+.thumbnail>a>img{
+	height: 150px;
+}
+
+.caption>h4{
+	margin-top: 5px;
+	color: #9d9d9d;
+}
+
+.caption>h4>span{
+	float: right;
+	font-size:13px ;
+	color: #9d9d9d;
+}
+.caption>p{
+	color: #9d9d9d;
+	font-size: 10px;
+}
+
+.caption>p>a{
+	padding-right: 10px;
+}
+
+
+.caption>p>a:hover{
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.picsmall>img{
+	width:100%;
+}
+
+.picsmall{
+	padding: 10px 10px 15px 10px;
+	margin-bottom:20px;
+	background-color: #080808;
+	border: 2px solid #080808; 
+	border-radius:5px;
+}
+
+.picsmall-container>a:hover .picsmall{
+	color: #fb7d02;
+	text-decoration: none;
+	border: 2px solid #fb7d02;
+}
+
+.picsmall-container>a:hover{
+	text-decoration: none;
+}
+
+.picsmall>span{
+	padding-top: 5px;
+	display: block;
+}
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Just4cooL</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+</style>
+</head>
+<body ng-app="" style="background-color: black">
+
+  <div class="container">
+  <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" 
+            aria-hidden="true">×
+        </button>
+        <h4 class="modal-title" id="myModalLabel">
+          模态框（Modal）标题
+        </h4>
+      </div>
+      <div class="modal-body">
+        按下 ESC 按钮退出。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" 
+            data-dismiss="modal">关闭
+        </button>
+        <button type="button" class="btn btn-primary">
+          提交更改
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    <ng-include src="'navi.html'"></ng-include>
+    <div class="row clearfix">
+
+      <div class="picsmall-container col-xs-12 col-sm-6 col-md-3">
+        <a data-toggle="modal">
+          <p class="picsmall">
+            <img src="images/MARVEL_VS_DC.jpg" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+
+        <a href="#" >
+          <p class="picsmall">
+            <img src="images/k.png" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="picsmall-container col-xs-12 col-sm-6 col-md-3">
+        <a href="#">
+          <p class="picsmall">
+            <img src="images/kayn.jpg" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+
+        <a href="#">
+          <p class="picsmall">
+            <img src="images/k.png" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="picsmall-container col-xs-12 col-sm-6 col-md-3">
+        <a href="#">
+          <p class="picsmall">
+            <img src="images/k.png" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="picsmall-container col-xs-12 col-sm-6 col-md-3">
+        <a href="#">
+          <p class="picsmall">
+            <img src="images/MARVEL_VS_DC.jpg" 
+            alt="通用的占位符缩略图">
+            <span>漫威大战DC</span>
+          </p>
+        </a>
+      </div>
+
+    </div>
+    <ng-include src="'footer.html'"></ng-include>
+  </div>
+</body>
